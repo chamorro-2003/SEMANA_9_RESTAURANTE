@@ -3,7 +3,7 @@ from modelos.producto import Producto
 from modelos.usuario import Usuario
 from servicios.restaurante import Restaurante
 
-# TUPLA (tuple): Estructura estable e inmutable para las opciones del menú
+# Constantes y configuraciones del sistema
 OPCIONES_MENU: Tuple[str, ...] = (
     "1. Registrar producto",
     "2. Buscar producto",
